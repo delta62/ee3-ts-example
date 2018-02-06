@@ -1,7 +1,8 @@
 {
   "name": "ee3-ts-example",
   "version": "2.0.0",
-  "description": "",
+  "description": "Some examples of eventemitter3 and TypeScript",
+  "repository": "delta62/ee3-ts-example",
   "main": "index.js",
   "scripts": {
     "start": "tsc && node src/index.js",
@@ -9,12 +10,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "typescript": "^2.7.1"
-  },
+  "license": "MIT",
   "dependencies": {
     "eventemitter3": "^2.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^2.7.1"
   }
 }
