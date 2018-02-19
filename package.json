@@ -5,6 +5,7 @@
   "repository": "delta62/ee3-ts-example",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "start": "tsc && node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +13,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "eventemitter3": "^3.0.0"
+    "eventemitter3": "^3.0.1"
   },
   "devDependencies": {
-    "typescript": "^2.7.1"
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.1",
+    "webpack": "^3.11.0"
   }
 }
