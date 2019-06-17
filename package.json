@@ -12,7 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "eventemitter3": "^3.0.1"
+    "eventemitter3": "grind086/eventemitter3"
   },
   "devDependencies": {
     "typescript": "^2.7.1"
